@@ -1,5 +1,5 @@
 """
-Configuration with improved prompt for better intervention vs persona parameter mapping
+Configuration with prompt for better intervention vs persona parameter mapping
 """
 
 # WASH 2021 Model Features (73 total)
@@ -77,7 +77,7 @@ LORIN_FEATURES = [
     'knowledge_total', 'proficiency'
 ]
 
-# Improved LLM prompt with correct intervention vs persona parameter mapping
+# LLM prompt with correct intervention vs persona parameter mapping
 PERSONA_ANALYSIS_PROMPT = """
 You are an expert cybersecurity behavioral analyst. Analyze the PERSONA and INTERVENTION separately to extract parameters for phishing behavior prediction models.
 

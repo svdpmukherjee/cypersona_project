@@ -1,5 +1,5 @@
 """
-Improved results display with separate intervention and persona parameter views
+Results display with separate intervention and persona parameter views
 """
 
 import streamlit as st
